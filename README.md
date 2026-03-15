@@ -7,60 +7,370 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+<p align="center">
+  <a href="https://laravel.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="320" alt="Laravel Logo">
+  </a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<h1 align="center">Website SMK Negeri 1 Sukorejo</h1>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p align="center">
+  Sistem informasi sekolah berbasis Laravel untuk publikasi profil sekolah, jurusan, BKK, LSP, alumni, dan pengelolaan konten melalui dashboard admin.
+</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-Framework-red" alt="Laravel">
+  <img src="https://img.shields.io/badge/PHP-8.x-blue" alt="PHP">
+  <img src="https://img.shields.io/badge/MySQL-Database-orange" alt="MySQL">
+  <img src="https://img.shields.io/badge/Status-Portfolio-green" alt="Status">
+  <img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained">
+</p>
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+# 📌 Project Overview
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+**Website SMK Negeri 1 Sukorejo** adalah aplikasi web berbasis **Laravel** yang dikembangkan untuk membantu digitalisasi informasi sekolah dan pengelolaan konten secara terpusat.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Sistem ini menyediakan akses informasi bagi siswa, orang tua, alumni, dan masyarakat umum serta dashboard admin untuk mengelola seluruh konten website sekolah.
 
-## Laravel Sponsors
+Website ini mencakup berbagai modul seperti profil sekolah, jurusan, BKK, LSP, blog, alumni, data sekolah, serta manajemen konten melalui panel admin.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+---
 
-### Premium Partners
+# 🚀 Main Features
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## 🌐 Public Website
 
-## Contributing
+Halaman publik yang dapat diakses oleh siswa, orang tua, alumni, dan masyarakat.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Fitur utama:
 
-## Code of Conduct
+* Beranda sekolah
+* Informasi jurusan / kompetensi keahlian
+* Agenda sekolah
+* Data guru
+* Blog / berita sekolah
+* Detail artikel
+* Informasi lowongan kerja BKK
+* Layanan orang tua
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## 🏫 School Profile
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Informasi lengkap mengenai profil sekolah.
 
-## License
+Fitur:
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+* Profil sekolah
+* Visi dan misi
+* Struktur organisasi
+* Sejarah singkat sekolah
+* Sekolah Adiwiyata
+* Sekolah Rujukan
+
+---
+
+## 🧑‍🎓 Department / Jurusan
+
+Informasi jurusan dan kompetensi keahlian.
+
+Fitur:
+
+* Daftar jurusan
+* Detail jurusan
+* Halaman kompetensi keahlian
+* Modul produktif
+* Artikel ilmiah
+* Reparasi bengkel
+
+Jurusan yang tersedia:
+
+* TKR
+* TEI
+* RPL
+* TKI
+* TAV
+
+---
+
+## 💼 BKK (Bursa Kerja Khusus)
+
+Fitur yang mendukung informasi karir siswa dan alumni.
+
+Fitur:
+
+* Profil BKK
+* Visi dan misi BKK
+* Struktur organisasi BKK
+* Kegiatan BKK
+* Detail kegiatan
+* Lowongan kerja
+* Detail lowongan kerja
+* Bimbingan karir
+* Perusahaan mitra
+
+---
+
+## 🏅 LSP (Lembaga Sertifikasi Profesi)
+
+Halaman informasi terkait sertifikasi kompetensi siswa.
+
+Fitur:
+
+* Informasi LSP
+* Visi dan misi LSP
+* Skema sertifikasi
+* Tempat uji kompetensi
+* Jumlah pemegang sertifikat
+
+---
+
+## 📊 School Data
+
+Fitur untuk menampilkan berbagai data sekolah.
+
+Fitur:
+
+* Data guru
+* Data wali kelas
+* Data Dharma Wanita
+* Data ekstrakurikuler
+* Data prestasi
+* Detail prestasi
+* Detail ekstrakurikuler
+
+---
+
+## 🎓 Alumni
+
+Fitur yang berkaitan dengan alumni sekolah.
+
+Fitur:
+
+* Testimoni alumni
+* Profil alumni
+
+---
+
+## 👨‍👩‍👧 Parent Service
+
+Layanan yang disediakan untuk orang tua siswa.
+
+Fitur:
+
+* Halaman layanan orang tua
+* Form pengiriman layanan
+
+---
+
+# 🛠 Admin Dashboard
+
+Dashboard admin digunakan untuk mengelola seluruh konten website sekolah.
+
+Fitur admin meliputi:
+
+### Authentication
+
+* Login admin
+* Ganti password
+* Login Google OAuth
+
+### Beranda Management
+
+* Slider
+* Blog
+* Keunggulan sekolah
+* Sambutan kepala sekolah
+* Alumni
+* Total siswa
+* Sponsor
+* Video profil
+
+### Profile Management
+
+* Profil sekolah
+* Visi misi
+* Struktur organisasi
+* Anggota struktur organisasi
+* Sejarah sekolah
+* Sekolah Adiwiyata
+* Sekolah Rujukan
+
+### BKK Management
+
+* Visi misi BKK
+* Struktur organisasi BKK
+* Kegiatan BKK
+* Bimbingan karir
+* Kewirausahaan
+* Lowongan kerja
+* Perusahaan mitra
+
+### Data Management
+
+* Ekstrakurikuler
+* Guru
+* Dharma Wanita
+* Wali kelas
+* Prestasi
+* Kategori blog
+
+### Jurusan Management
+
+* Tambah jurusan
+* Edit jurusan
+* Hapus jurusan
+
+### Kakomli Management
+
+* CRUD Kakomli
+
+### Social Media Management
+
+* CRUD sosial media sekolah
+
+### LSP Management
+
+* Profil LSP
+* Visi misi LSP
+* Skema LSP
+* Tempat uji kompetensi
+* Jumlah sertifikasi
+
+### Modul Management
+
+* Modul TKR
+* Modul TEI
+* Modul umum
+* Reparasi
+* Artikel
+
+---
+
+# 🧰 Tech Stack
+
+| Technology             | Description             |
+| ---------------------- | ----------------------- |
+| Laravel                | Backend Framework       |
+| PHP                    | Server-side Programming |
+| MySQL                  | Database                |
+| Blade                  | Template Engine         |
+| Bootstrap / Custom CSS | Frontend Styling        |
+| Google OAuth           | Authentication          |
+
+---
+
+# 📁 Project Structure
+
+```bash
+app/
+bootstrap/
+config/
+database/
+public/
+resources/
+routes/
+storage/
+tests/
+```
+
+---
+
+# ⚙️ Installation
+
+### 1 Clone Repository
+
+```bash
+git clone <repository-url>
+```
+
+### 2 Masuk ke Folder Project
+
+```bash
+cd nama-project
+```
+
+### 3 Install Dependencies
+
+```bash
+composer install
+```
+
+### 4 Copy File Environment
+
+```bash
+cp .env.example .env
+```
+
+### 5 Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+### 6 Configure Database
+
+Edit `.env`
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=smkn1_sukorejo
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+### 7 Run Migration
+
+```bash
+php artisan migrate
+```
+
+### 8 Run Server
+
+```bash
+php artisan serve
+```
+
+Aplikasi akan berjalan di:
+
+```
+http://127.0.0.1:8000
+```
+
+---
+
+# 🎯 Portfolio Purpose
+
+Project ini dibuat untuk:
+
+* Mendigitalisasi media informasi sekolah
+* Mempermudah publikasi informasi akademik
+* Mengelola konten website sekolah secara terpusat
+* Menampilkan implementasi Laravel pada project nyata
+* Menjadi bagian dari portfolio pengembangan web
+
+---
+
+# 👨‍💻 Contributors
+
+Project ini dikembangkan oleh:
+
+* **Mukhamad Sofyan**
+  https://github.com/mukhamadsofyan
+
+* **Keysha Arindra Fabian**
+  https://github.com/Keydrf
+
+* **Zaki Almukhtarom**
+  https://github.com/Jukiks45
+
+---
+
+# 📄 License
+
+Project ini dibuat untuk **tujuan pembelajaran dan portfolio developer**.
